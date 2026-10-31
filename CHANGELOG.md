@@ -1,6 +1,6 @@
 # Changelog — fs-interop
 
-## [1.0.0] — unreleased (first release of the shared repository)
+## [1.0.0] — 2026-10-31 (first release of the shared repository)
 
 ### Added
 - `window.FreeScoutInterop`, protocol 1.0.0: `modules` (`register` / `get` / `list` / `when`), `supports()`,

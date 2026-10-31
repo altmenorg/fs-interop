@@ -1,10 +1,5 @@
 # fs-interop — FreeScout Interop bridge
 
-> **Staging folder.** This folder holds the content of the future shared repository of the bridge, agreed with
-> Refresh's maintainer (2026-10-22): one reference copy, used by both modules, instead of one copy each. It lives in
-> RefreshGlobal's repository only until that repository is created; then it is moved there unchanged (with its history
-> if wanted) and this folder is removed.
-
 `fs-interop.js` is the small, neutral browser bridge through which sibling FreeScout modules (Refresh, RefreshGlobal…)
 cooperate without depending on each other's HTML or private code: `window.FreeScoutInterop` (module registration,
 capability discovery with version ranges, event bus, conversation context, surfaces, navigation / toolbar / swipe
@@ -52,5 +47,4 @@ node tests/fs-interop.test.js
 
 ## Licence
 
-AGPL-3.0 (`LICENSE`), the licence of Refresh and RefreshGlobal. To be confirmed by both maintainers when the
-repository is created.
+AGPL-3.0 (`LICENSE`), the licence of Refresh and RefreshGlobal.
